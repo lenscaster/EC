@@ -1,6 +1,6 @@
 FROM quay.io/lyfe00011/test:beta
 
-RUN git clone https://https://github.com/lenscaster/mechans /root/WhatsAsenaDuplicated
+RUN git clone https://https://github.com/lenscaster/EC /root/WhatsAsenaDuplicated
 WORKDIR /root/WhatsAsenaDuplicated/
 RUN yarn install --no-audit
 RUN git clone https://https://github.com/lenscaster/media
